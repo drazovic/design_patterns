@@ -28,7 +28,7 @@ function compareAnimalServiceInstances() {
     const animalService2 = AnimalDataService.getInstance();
     animalService2.addAnimal('cat');
 
-    const animals1= animalService1.getAnimals();
+    const animals1 = animalService1.getAnimals();
     const animals2 = animalService2.getAnimals();
     console.log('Animals from animalService1', animals1);
     console.log('Animals from animalService2', animals2);
