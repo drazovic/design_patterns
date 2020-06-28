@@ -21,7 +21,7 @@ class AnimalDataService {
     }
 }
 
-function compareAnimalServiecInstances() {
+function compareAnimalServiceInstances() {
     const animalService1 = AnimalDataService.getInstance();
     animalService1.addAnimal('dog');
 
@@ -34,4 +34,4 @@ function compareAnimalServiecInstances() {
     console.log('Animals from animalService2', animals2);
 }
 
-compareAnimalServiecInstances();
+compareAnimalServiceInstances();
