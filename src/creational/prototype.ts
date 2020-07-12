@@ -6,7 +6,7 @@ class Prototype {
         this.identity = id;
 
         for (let i = 0; i < 1000; i++) {
-            this.list.push(i)
+            this.list.push(i);
         }
     }
 
